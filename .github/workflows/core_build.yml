@@ -35,4 +35,4 @@ jobs:
         with:
           name: binary
           path: |
-            _install
+            /home/runner/work/server/server/_build
