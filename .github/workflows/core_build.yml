@@ -29,3 +29,10 @@ jobs:
 
       - name: Build Mangos Project
         run: source ./apps/ci/ci-compile.sh
+        
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: binary
+          path: |
+            _install
